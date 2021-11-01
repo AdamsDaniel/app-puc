@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Firebase</string>
+    <string name="btnSend">Enviar</string>
+    <string name="text_second_screen">Essa é a segunda tela</string>
+    <string name="hint_name">Nome</string>
+    <string name="hint_password">Senha</string>
+</resources>
