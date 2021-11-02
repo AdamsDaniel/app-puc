@@ -4,4 +4,5 @@
     <string name="text_second_screen">Essa é a segunda tela</string>
     <string name="hint_name">Nome</string>
     <string name="hint_password">Senha</string>
+    <string name="meus_filmes">Meus filmes favoritos</string>
 </resources>

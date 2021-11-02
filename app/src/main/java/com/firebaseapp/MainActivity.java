@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_segunda_tela);
         getSupportActionBar().hide();//Esconde a action bar
 
     }
@@ -28,11 +28,11 @@ public class MainActivity extends AppCompatActivity {
         String name = box_name.getText().toString();
         String senha = box_senha.getText().toString();
         if (name.equals("") && senha.equals("")){
-            alert("Nome ou senha inválidos");
+            alert("Nome e senha inválidos");
         }else if (name.equals("")){
-            alert("Nome ou senha inválidos");
+            alert("Nome inválido");
         }else if (senha.equals("")){
-            alert("Nome ou senha inválidos");
+            alert("Senha inválida");
         }else{
             alert("Login realizado com sucesso");
             startActivity(intent);
